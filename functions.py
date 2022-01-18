@@ -1,13 +1,15 @@
 # Learning to define and use functions
 
-# Define the function
-def thing() :
-    print('Hello')
-    print('Fun')
+def greet(lang):
+    if lang == 'es':
+        return 'Hola'
+    elif lang == 'fr':
+        return 'Bonjour'
+    else:
+        return 'Hello'
 
-# Invoke, or call, the function
-thing()
+print(greet('en'), 'Glenn')
 
-print('Zip')
+print(greet('es'), 'Sally')
 
-thing()
+print(greet('fr'), 'Michael')
