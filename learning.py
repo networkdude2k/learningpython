@@ -1,4 +1,9 @@
 # First learning script
 
-for n in "banana":
-    print(n)
+stuff = 'Hello\nWorld!'
+print(stuff)
+print(len(stuff))
+
+stuff = 'X\nY'
+print(stuff)
+print(len(stuff))
